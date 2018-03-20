@@ -13,6 +13,7 @@ class List //begin List definition
     Node* frontPtr = nullptr;
     int num_elements = 0;
     
+    
   public:
      ~List();//destructor
      void insert(int element, int k);//insert element at location k
@@ -21,7 +22,8 @@ class List //begin List definition
      
      
      /** MISSING OPERATIONS */
-     //... fill in ....
+     int get(int k);
+     void clear();
 
 };//end List definition
 
